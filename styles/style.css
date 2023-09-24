@@ -50,7 +50,19 @@ button {
     text-decoration: none;
 }
 
-#hp-pavillion{border:#9e86c8 5px solid; }
+#about-tab button {
+    color: #9e86c8;
+}
+
+#about-tab button:hover:not(.active) {
+    color: #e3dcef;   
+}
+
+#about-tab .nav-link.active,
+#about-tab .show {
+    background-color: #9e86c8;
+    color: white;
+}
 
 #intro-container {text-align: center;}
 
