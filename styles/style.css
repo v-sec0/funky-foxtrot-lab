@@ -54,7 +54,7 @@ button {
 
 #intro-container {text-align: center;}
 
-#headshot {border: 6px rgb(158, 134, 200) solid; position: relative;}
+#headshot {border: 6px rgb(158, 134, 200) solid; position: relative; width: 550px}
 
 #cert{
     top: -8%;
@@ -65,4 +65,4 @@ button {
 
 }
 
-#nav {border-bottom: 2px #b4d273 solid;}
+#myNav {border-bottom: 2px #b4d273 solid;}

@@ -14,7 +14,7 @@
 <!-- Start of body -->
 
 <!-- Navbar -->
-<nav id="nav" class="navbar navbar-expand-md sticky-top navbar-dark bg-dark">
+<nav id="myNav" class="navbar navbar-expand-md sticky-top navbar-dark bg-dark" role="tablist">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fautomatedprogrammer.sh%2Fwp-content%2Fuploads%2F2018%2F05%2Fcropped-bash-150x150.png&f=1&nofb=1&ipt=0162edd1dab1af75169f57e86d7622beabc610c67eebb81e89e4a7c18bd4cd2c&ipo=images" width="35" height="35" class="d-inline-block align-top" alt="">
@@ -25,72 +25,76 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">🏠 Welcome</a>
-            <a class="nav-link" href="#">📚 About</a>
-            <a class="nav-link" href="#">⚙️ Experience</a>
+            <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">🏠 Welcome</a>
+            <a class="nav-link" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="false">📚 About</a>
+            <a class="nav-link" id="nav-experience-tab" data-bs-toggle="tab" data-bs-target="#nav-experience" type="button" role="tab" aria-controls="nav-experience" aria-selected="false">⚙️ Experience</a>
             </div>
         </div>
     </div>
   </nav>
 
-<!-- Introduction -->
-<div id="intro-container" class="container mt-5 bg-dark p-5">
-    <div class="row">
-        <div id="headshot-div" class="col-xl-5">
-            <img id="headshot" alt="" class="img-fluid" src="./images/headshot.jpg">
-            <img id="cert" alt="" class="img-fluid" src="./images/securityplus.png">
-        </div>
-        <div id="intro-prompt" class="col-xl-7">
-            <h1 class="intro-title em-pink">Welcome!</h1>
-            <p class="fs-5 mt-3">My name is <span class=em-blue>Levon Watkins Jr.</span></p>
-            <p class="fs-5 mt-3">I am a passionate Cybersecurity and Linux enthusiast</p>
-            <p class="fs-5 mt-3">I have over a year of experience working with <span class="em-yellow">GNU/Linux</span> in both professional and personal environments. Additionally, I have experience navigating and working from within the DoD contracting industry.</p>
-            <p class="fs-5 mt-3">My specialites include <span class="em-orange">Network Security</span>, <span class="em-orange">Hardware Configuration</span>, and <span class="em-orange">Risk Mitigation</span>.</p>
-            <div class="container-fluid mt-5">
-                <a class="welcome-anchor" href="https://github.com/v-sec0" target="_blank">
-                    <img alt="" id="git-link"src="./images/github.png" class="img-fluid link-image">
-                </a>
-                <a class="welcome-anchor" href="https://www.linkedin.com/in/levon-watkins-5bb034238?trk=public_post_feed-actor-name" target="_blank">
-                    <img alt="" id="linkedin-link" src="./images/linkedin.png" class="img-fluid link-image">
-                </a>
-            </div>
-        </div> 
-    </div>
-</div>
-<div id="experience" class="container-fluid mt-5">
-    <div class="d-flex justify-content-center">
-        <nav class="nav nav-pills mb-3" id="experience-tab" role="tablist">
-            <div class="nav-item" role="presentation">
-                <button class="nav-link active" id="exp-beginnings-tab" data-bs-toggle="pill" data-bs-target="#exp-begin" type="button" role="tab" aria-controls="exp-begin" aria-selected="true">Overview</button>
-            </div>
-            <div class="nav-item" role="presentation">
-                <button class="nav-link" id="exp-early-tab" data-bs-toggle="pill" data-bs-target="#exp-early" type="button" role="tab" aria-controls="exp-early" aria-selected="false">Hobbies</button>
-            </div>
-            <div class="nav-item" role="presentation">
-                <button class="nav-link" id="exp-current-tab" data-bs-toggle="pill" data-bs-target="#exp-current" type="button" role="tab" aria-controls="exp-current" aria-selected="false">Projects</button>
-            </div>
-        </nav>
-    </div>
-    <div class="container mt-3">  
-        <div class="tab-content" id="experience-tabContent">
-            <div class="tab-pane fade show active" id="exp-begin" role="tabpanel" aria-labelledby="exp-beginnings-tab" tabindex="0">
-                <div class="clearfix">
-                    <p> For as long as I can remember, I have always had a passion for technology. My first ever interaction with a computer came from my grandfather's <span class="em-purple">HP Pavillion desktop</span>.</p>
-                    <p> I remember the first time I took it apart to fix a DVI display issue and from that moment forward, I was hooked on technology.</p>
-                    <img alt="" id="hp-pavillion" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" style="width: 500px;" src="./images/pavillion.jpg">
-                    <p> My interest in <span class="em-yellow">cybersecurity</span> sparked from serveral interactions with one of my best friends. He was (and still is) a wiz with computers and had a pension for staying secure and private online. He introduced me into security and it is thanks to him that my skills have become what they are now.</p>
-                    <p> Linux was first introduced to me when I was enrolled in the <span class="em-pink">Limestone County Technical Career Center for Cybersecurity</span>. There, students were given material ranging from novice to advanced levels of <span class="em-orange">Information Security</span>. It is within that course, that I was given a Raspberry Pi and told to install a particular distribution of Linux, <span class="em-green">Raspian</span>.</p>
-                    <p> The initial impression I had was not positive, but once again, thanks to my grandfather giving me access to old machines, I was able to get my hands of several different distributions of <span class="em-blue">Linux</span>. That is where I found my love and deep respect for the operating system.</p>
-                    <p> While some of the knowledge I have comes from my background with technology, most of the things I know now are <span class="em-yellow">self-taught</span>. I have an insaible hunger for knowledge and I try to learn something new everyday.</p>
-                    <p> I am self-driven and self-motivated. The one thing that drives me to get up each morning and give my best is the desire to become the best possible me I can be. There's a lot of things that are out of my control, but what I can control is what I do and how much effort I give to the task, and goals I have given myself.</p>
+<!-- Navbar Tabs -->
+<div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <div id="intro-container" class="container mt-5 bg-dark p-5">
+            <div class="row">
+                <div id="headshot-div" class="col-xl-5">
+                    <img id="headshot" alt="" class="img-fluid" src="./images/headshot.jpg">
+                    <img id="cert" alt="" class="img-fluid" src="./images/securityplus.png">
                 </div>
+                <div id="intro-prompt" class="col-xl-7">
+                    <h1 class="intro-title em-pink">Welcome!</h1>
+                    <p class="fs-5 mt-3">My name is <span class=em-blue>Levon Watkins Jr.</span></p>
+                    <p class="fs-5 mt-3">I am a passionate Cybersecurity and Linux enthusiast</p>
+                    <p class="fs-5 mt-3">I have over a year of experience working with <span class="em-yellow">GNU/Linux</span> in both professional and personal environments. Additionally, I have experience navigating and working from within the DoD contracting industry.</p>
+                    <p class="fs-5 mt-3">My specialites include <span class="em-orange">Network Security</span>, <span class="em-orange">Hardware Configuration</span>, and <span class="em-orange">Risk Mitigation</span>.</p>
+                    <div class="container-fluid mt-5">
+                        <a class="welcome-anchor" href="https://github.com/v-sec0" target="_blank">
+                            <img alt="" id="git-link"src="./images/github.png" class="img-fluid link-image">
+                        </a>
+                        <a class="welcome-anchor" href="https://www.linkedin.com/in/levon-watkins-5bb034238?trk=public_post_feed-actor-name" target="_blank">
+                            <img alt="" id="linkedin-link" src="./images/linkedin.png" class="img-fluid link-image">
+                        </a>
+                    </div>
+                </div> 
             </div>
-            <div class="tab-pane fade tab-center" id="exp-early" role="tabpanel" aria-labelledby="exp-early-tab" tabindex="0">...</div>
-            <div class="tab-pane fade tab-center" id="exp-current" role="tabpanel" aria-labelledby="exp-current-tab" tabindex="0">...</div>          
-        </div>  
-    </div> 
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab" tabindex="0">
+        <div id="about" class="container-fluid mt-5">
+            <div class="d-flex justify-content-center">
+                <nav class="nav nav-pills mb-3" id="about-tab" role="tablist">
+                    <div class="nav-item" role="presentation">
+                        <button class="nav-link active" id="about-overview-tab" data-bs-toggle="pill" data-bs-target="#about-overview" type="button" role="tab" aria-controls="about-overview" aria-selected="true">Overview</button>
+                    </div>
+                    <div class="nav-item" role="presentation">
+                        <button class="nav-link" id="about-projects-tab" data-bs-toggle="pill" data-bs-target="#about-projects" type="button" role="tab" aria-controls="about-projects" aria-selected="false">Projects</button>
+                    </div>
+                </nav>
+            </div>
+            <div class="container mt-3">  
+                <div class="tab-content" id="experience-tabContent">
+                    <div class="tab-pane fade show active" id="about-overview" role="tabpanel" aria-labelledby="about-overview-tab" tabindex="0">
+                        <div class="clearfix">
+                            <p> For as long as I can remember, I have always had a passion for technology. My first ever interaction with a computer came from my grandfather's <span class="em-purple">HP Pavillion desktop</span>.</p>
+                            <p> I remember the first time I took it apart to fix a DVI display issue and from that moment forward, I was hooked on technology.</p>
+                            <img alt="" id="hp-pavillion" class="img-fluid col-md-6 float-md-end mb-3 ms-md-3" style="width: 500px;" src="./images/pavillion.jpg">
+                            <p> My interest in <span class="em-yellow">cybersecurity</span> sparked from serveral interactions with one of my best friends. He was (and still is) a wiz with computers and had a pension for staying secure and private online. He introduced me into security and it is thanks to him that my skills have become what they are now.</p>
+                            <p> Linux was first introduced to me when I was enrolled in the <span class="em-pink">Limestone County Technical Career Center for Cybersecurity</span>. There, students were given material ranging from novice to advanced levels of <span class="em-orange">Information Security</span>. It is within that course, that I was given a Raspberry Pi and told to install a particular distribution of Linux, <span class="em-green">Raspian</span>.</p>
+                            <p> The initial impression I had was not positive, but once again, thanks to my grandfather giving me access to old machines, I was able to get my hands of several different distributions of <span class="em-blue">Linux</span>. That is where I found my love and deep respect for the operating system.</p>
+                            <p> While some of the knowledge I have comes from my background with technology, most of the things I know now are <span class="em-yellow">self-taught</span>. I have an insaible hunger for knowledge and I try to learn something new everyday.</p>
+                            <p> I am self-driven and self-motivated. The one thing that drives me to get up each morning and give my best is the desire to become the best possible me I can be. There's a lot of things that are out of my control, but what I can control is what I do and how much effort I give to the task, and goals I have given myself.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade tab-center" id="about-projects" role="tabpanel" aria-labelledby="about-projects-tab" tabindex="0">...</div>
+                </div>  
+            </div> 
+        </div>
+    </div>
+    <div class="tab-pane fade" id="nav-experience" role="tabpanel" aria-labelledby="nav-experience-tab" tabindex="0">...</div>
 </div>
-
+  
+<!
 <!-- End of body -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>   
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
