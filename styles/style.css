@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
+
+/* Colors */
+.em-pink{
+    color: #b05279;
+}
+
+.em-purple{
+    color:  #9e86c8;
+}
+
+.em-yellow{
+    color: #e5b567;
+}
+
+.em-green{
+    color:#b4d273;
+}
+
+.em-blue{
+    color:#6c99bb;
+}
+
+
+
+body {
+    background-color: rgb(46, 46, 46);
+    color:white;
+    font-family: 'Martian Mono', monospace;
+}
+
+.link-image {
+    max-width:100px;
+    max-height: auto;
+}
+
+.link-image:hover {
+    cursor: pointer;
+    filter: invert();
+}
+
+
+#intro-container {text-align: center;}
+
+#headshot {border: 6px rgb(158, 134, 200) solid}
+
+#cert{
+    top: -15%;
+    right: 35%;
+    max-width: 50%;
+    height: fit-content;
+    position: absolute;
+
+}
+
+#nav {border-bottom: 2px #b4d273 solid;}
