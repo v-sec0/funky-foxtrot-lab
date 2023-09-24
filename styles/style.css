@@ -21,12 +21,19 @@
     color:#6c99bb;
 }
 
+.em-orange{
+    color: #e87d3e;
+}
 
 
 body {
     background-color: rgb(46, 46, 46);
     color:white;
     font-family: 'Martian Mono', monospace;
+}
+
+button {
+    font-family: 'Martian Mono', monospace !important;
 }
 
 .link-image {
@@ -39,17 +46,22 @@ body {
     filter: invert();
 }
 
+.welcome-anchor {
+    text-decoration: none;
+}
+
+#hp-pavillion{border:#9e86c8 5px solid; }
 
 #intro-container {text-align: center;}
 
-#headshot {border: 6px rgb(158, 134, 200) solid}
+#headshot {border: 6px rgb(158, 134, 200) solid; position: relative;}
 
 #cert{
-    top: -15%;
-    right: 35%;
-    max-width: 50%;
-    height: fit-content;
-    position: absolute;
+    top: -8%;
+    right: 40%;
+    width: 30%;
+    height: auto;
+    position: relative;
 
 }
 
