@@ -36,6 +36,10 @@ button {
     font-family: 'Martian Mono', monospace !important;
 }
 
+#myNav .nav-link:hover {
+    cursor: pointer;
+}
+
 .link-image {
     max-width:100px;
     max-height: auto;
