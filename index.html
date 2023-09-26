@@ -7,6 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <title> 
         Levon Watkins - FOXTROT
     </title> 
@@ -29,7 +30,8 @@
             <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">🏠 Welcome</a>
             <a class="nav-link" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="false">📚 About</a>
             <a class="nav-link" id="nav-experience-tab" data-bs-toggle="tab" data-bs-target="#nav-experience" type="button" role="tab" aria-controls="nav-experience" aria-selected="false">⚙️ Experience</a>
-            </div>
+            <a class="nav-link" id="nav-check-source"></a>   
+        </div>
         </div>
     </div>
   </nav>
@@ -43,7 +45,7 @@
                     <img id="headshot" alt="" class="img-fluid" src="./images/headshot.jpg">
                     <img id="cert" alt="" class="img-fluid" src="./images/securityplus.png">
                 </div>
-                <div id="intro-prompt" class="col-xl-7" data-aos="fade-up">
+                <div id="intro-prompt" class="col-xl-7" data-aos="zoom-out-up">
                     <h1 class="intro-title em-pink">Welcome!</h1>
                     <p class="fs-5 mt-3">My name is <span class=em-blue>Levon Watkins Jr.</span></p>
                     <p class="fs-5 mt-3">I am a passionate Cybersecurity and Linux enthusiast</p>
@@ -66,10 +68,10 @@
             <div class="d-flex justify-content-center">
                 <nav class="nav nav-pills mb-3" id="about-tab" role="tablist">
                     <div class="nav-item" role="presentation">
-                        <button class="nav-link active" id="about-overview-tab" data-bs-toggle="pill" data-bs-target="#about-overview" type="button" role="tab" aria-controls="about-overview" aria-selected="true">Overview</button>
+                        <button class="nav-link active" id="about-overview-tab" data-bs-toggle="pill" data-bs-target="#about-overview" type="button" role="tab" aria-controls="about-overview" aria-selected="true"><i class="bi bi-person-badge"></i> Overview</button>
                     </div>
                     <div class="nav-item" role="presentation">
-                        <button class="nav-link" id="about-skills-tab" data-bs-toggle="pill" data-bs-target="#about-skills" type="button" role="tab" aria-controls="about-skills" aria-selected="false">Skills</button>
+                        <button class="nav-link" id="about-skills-tab" data-bs-toggle="pill" data-bs-target="#about-skills" type="button" role="tab" aria-controls="about-skills" aria-selected="false"><i class="bi bi-award-fill"></i> Skills</button>
                     </div>
                 </nav>
             </div>
@@ -93,7 +95,7 @@
                                 <div id="soft-skills" class="col-lg-4">
                                     <div class="card bg-dark">
                                         <div class="card-body">
-                                            <h5 class="card-title">Soft Skills</h5>
+                                            <h5 class="card-title">General Skills</h5>
                                             <h6 class="card-subtitle mb-2 text-muted">Loose skills that compliment my specialites</h6>
                                             <p class="card-text">
                                                 <span class="em-green">Microsoft Excel</span><br>
@@ -140,7 +142,7 @@
                                                 <span class="em-blue">Python</span><br>
                                                 Java<br>
                                                 <span class="text-muted">R</span><br>
-                                                Javascript<br>
+                                                JavaScript<br>
                                                 CSS<br>
                                                 HTML<br>
                                                 Markdown<br>
@@ -149,7 +151,7 @@
                                                 Powershell<br>
                                                 <span class="em-blue">Cisco TCL</span><br>
                                                 Batch<br>
-                                                <span class="text-muted">Rust</span>
+                                                <span class="text-muted">Go</span>
 
                                             </p>
                                         </div>
@@ -173,31 +175,6 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
   AOS.init();
-
-  // You can also pass an optional settings object
-  // below listed default settings
-  AOS.init({
-    // Global settings:
-    disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-    startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-    initClassName: 'aos-init', // class applied after initialization
-    animatedClassName: 'aos-animate', // class applied on animation
-    useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-    disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-    debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-    throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-  
-
-    // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-    offset: 120, // offset (in px) from the original trigger point
-    delay: 0, // values from 0 to 3000, with step 50ms
-    duration: 400, // values from 0 to 3000, with step 50ms
-    easing: 'ease', // default easing for AOS animations
-    once: false, // whether animation should happen only once - while scrolling down
-    mirror: false, // whether elements should animate out while scrolling past them
-    anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
-  });
 </script>
 <script  src="./scripts/script.js"></script>
     

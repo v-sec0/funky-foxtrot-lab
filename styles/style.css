@@ -44,6 +44,7 @@ button {
 .link-image:hover {
     cursor: pointer;
     filter: invert();
+    transition: 0.8s;
 }
 
 .welcome-anchor {
