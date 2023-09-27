@@ -55,6 +55,10 @@ button {
     text-decoration: none;
 }
 
+.headshot-div {
+    position: relative;
+}
+
 #about-tab button {
     color: #9e86c8;
 }
@@ -71,15 +75,14 @@ button {
 
 #intro-container {text-align: center;}
 
-#headshot {border: 6px rgb(158, 134, 200) solid; position: relative; width: 550px}
+#headshot {border: 6px rgb(158, 134, 200) solid; position: relative; width: 80%}
 
 #cert{
-    top: -8%;
-    right: 40%;
     width: 30%;
     height: auto;
     position: relative;
-
+    top: -10%;
+    right: 40%;
 }
 
 #myNav {border-bottom: 2px #b4d273 solid;}
