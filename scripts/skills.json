@@ -1,1 +1,60 @@
 
+[
+    {
+        "title": "General Skills",
+        "subheading": "Loose skills that compliment my specialities",
+        "skills": [
+            "Leadership",
+            "Multitasking",
+            "Self-Motivation",
+            "Adaptiveness", 
+            "Continuous Learning",
+            "Level-headedness", 
+            "Open-mindedness"
+        ],
+        "color": "green"
+    },
+    {
+        "title": "Cybersecurity Skills",
+        "subheading": "Security-focused skills",
+        "skills": [
+            "Information Security",
+            "Network Security", 
+            "Containerization", 
+            "Risk Mitigation", 
+            "Threat Analysis", 
+            "GNU/Linux",
+            "Windows Operating System",
+            "Pentration Testing", 
+            "Hardware Configuration", 
+            "Technical Writing",
+            "STIGs",
+            "Excel/Spreadsheets"
+        ],
+        "color": "orange"
+    },
+    {
+        "title": "Developer Skills",
+        "subheading": "Software development-focused skills",
+        "skills": [
+            "Bash",
+            "Powershell",
+            "Python",
+            "Java",
+            "Vim",
+            "Markdown",
+            "Github",
+            "Visual Studio",
+            "YAML",
+            "HTML",
+            "JavaScript",
+            "CSS",
+            "NodeJS",
+            "Docker",
+            "R"
+         
+
+        ],
+        "color": "blue"
+    }
+]
