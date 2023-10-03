@@ -16,7 +16,7 @@ $(document).ready(function() {
                 const skills = section.skills.map(skill => `${skill}<br>`).join('');
                 
                 htmlContent += `
-                    <div class="col-lg-4 mb-5"
+                    <div class="col-lg-4 mb-5">
                         <div class="card">
                             <div class="card-body bg-dark">
                                 <h5 class="card-title em-${section.color}">${section.title}</h5>
