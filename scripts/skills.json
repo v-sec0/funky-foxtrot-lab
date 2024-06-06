@@ -2,57 +2,52 @@
 [
     {
         "title": "General Skills",
-        "subheading": "Loose skills that compliment my specialities",
+        "subheading": "Personal skills",
         "skills": [
             "Leadership",
             "Multitasking",
             "Self-Motivation",
             "Adaptiveness", 
-            "Continuous Learning",
+            "Continous learner",
             "Level-headedness", 
-            "Open-mindedness"
+            "Passionate"
         ],
         "color": "green"
     },
     {
-        "title": "Cybersecurity Skills",
-        "subheading": "Security-focused skills",
+        "title": "Core Skills",
+        "subheading": "Conceptual skills",
         "skills": [
             "Information Security",
-            "Network Security", 
-            "Containerization", 
-            "Risk Mitigation", 
-            "Threat Analysis", 
+            "Network Security",  
+            "Vulnerability Management", 
+            "Network Architecture", 
             "GNU/Linux",
-            "Windows Operating System",
-            "Pentration Testing", 
-            "Hardware Configuration", 
-            "Technical Writing",
-            "STIGs"
+            "Network Technologies",
+            "Server Architecture",
+            "Telecommunications", 
+            "Network Infrastructure", 
+            "Packet Analysis"
         ],
         "color": "orange"
     },
     {
-        "title": "Developer Skills",
-        "subheading": "Software development-focused skills",
+        "title": "Practical Skills",
+        "subheading": "Technology-specific skills",
         "skills": [
             "Bash",
             "Powershell",
             "Python",
-            "Java",
-            "Vim",
-            "R",
-            "Markdown",
-            "Github",
-            "Visual Studio",
-            "YAML",
+            "MySQL",
+            "Apache/Nginx",
+            "DISA STIGs",
+            "Virtualization",
+            "Logical Volume Manager",
+            "Cisco IOS",
             "HTML",
             "JavaScript",
             "CSS",
-            "NodeJS",
-            "Docker"
-         
-
+            "PHP"
         ],
         "color": "blue"
     }
