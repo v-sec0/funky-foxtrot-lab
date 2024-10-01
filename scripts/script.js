@@ -3,8 +3,8 @@ $(document).ready(function() {
 
     async function getData() {
         // Making two fetch request for .json files
-        const experienceURL = "./scripts/experience.json"
-        const skillsURL = "./scripts/skills.json"
+        const experienceURL = "./scripts/data/experience.json"
+        const skillsURL = "./scripts/data/skills.json"
 
        // Collectings responses for each request in a collective array 
         const response_array = await Promise.all([fetch(experienceURL), fetch(skillsURL)])

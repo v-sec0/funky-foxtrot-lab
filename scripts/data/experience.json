@@ -1,6 +1,6 @@
 [
     {
-        "employer": "Innovation Integration, INC",
+        "employer": "Innovation Integration, Inc",
         "dates": "May 2023 - Oct 2023",
         "role": "HSI/System Adminstrator Intern",
         "duties": "Ensured robust cybersecurity posture across enterprise systems and infrastructure by implementing rigorous hardening measures, configuring security for networking equipment, conducting vulnerability assessments leveraging industry tools, and delivering technical presentations showcasing system security capabilities in adherence to defense agency standards."
@@ -8,7 +8,7 @@
     {
         "employer": "Alabama Interconnect",
         "dates": "Oct 2023 - Present",
-        "role": "Network Technician",
+        "role": "Network Engineer",
         "duties": "Excelled in designing, implementing, and maintaining comprehensive voice/data networking solutions spanning structured cabling, PBX/VoIP platforms, and infrastructure from leading vendors like Cisco across commercial/industrial environments, leveraging expert troubleshooting abilities to resolve intricate networking challenges."
     }
 ]
