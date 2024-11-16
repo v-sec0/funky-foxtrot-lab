@@ -1,19 +1,6 @@
 
 [
     {
-        "title": "General Skills",
-        "subheading": "Personal skills",
-        "skills": [
-            "Leadership",
-            "Self-Motivation",
-            "Adaptive", 
-            "Continuous learner",
-            "Level-headedness", 
-            "Passionate"
-        ],
-        "color": "green"
-    },
-    {
         "title": "Core Skills",
         "subheading": "Conceptual skills",
         "skills": [
@@ -43,9 +30,7 @@
             "Virtualization",
             "Logical Volume Manager",
             "Cisco IOS",
-            "HTML",
-            "JavaScript",
-            "CSS",
+            "Web Development",
             "PHP"
         ],
         "color": "blue"

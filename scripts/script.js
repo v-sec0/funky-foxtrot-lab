@@ -6,14 +6,14 @@ $(document).ready(function() {
         const experienceURL = "./scripts/data/experience.json"
         const skillsURL = "./scripts/data/skills.json"
 
-       // Collectings responses for each request in a collective array 
+       // Collecting responses for each request in a collective array
         const response_array = await Promise.all([fetch(experienceURL), fetch(skillsURL)])
 
-        const reponse_exp = await response_array[0].json()
+        const response_exp = await response_array[0].json()
         const response_skills = await response_array[1].json()
 
         console.log("Retrieved Data")
-       return [reponse_exp, response_skills]
+       return [response_exp, response_skills]
     }
 
     // Working with the returned data and constructing HTML elements
@@ -33,11 +33,11 @@ $(document).ready(function() {
     
                 // Building a Bootstrap card for each job
                 expHTML += `
-                    <div class="col-lg-${12/numJobs} mb-5"
+                    <div class="col-lg-6 mb-5"
                         <div class="card">
-                            <div class="card-body bg-dark">
-                                <h5 class="card-title"><span class="em-purple">${job.employer}</span> - <span class="em-blue">${job.role}</span></h5>
-                                <h6 class="card-subtitle mb-2 text-muted">${job.dates}</h6>
+                            <div class="card-body bg-dark rounded-3 w-100">
+                                <h5 class="card-title"><span class="em-purple">${job.employer}</span></h5>
+                                <h6 class="card-subtitle mb-2 text-muted"><span class="em-blue">${job.role}</span><br>${job.dates}</h6>
                                 <p class="card-text">${job.duties}</p>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ $(document).ready(function() {
                 skillHTML += `
                     <div class="col-lg-${12/numSkills} mb-5"
                         <div class="card">
-                            <div class="card-body bg-dark">
+                            <div class="card-body bg-dark rounded-3">
                                 <h5 class="card-title em-${skill_cat.color}">${skill_cat.title}</h5>
                                 <h6 class="card-subtitle mb-2 text-muted">${skill_cat.subheading}</h6>
                                 <p class="card-text">${skills}</p>
