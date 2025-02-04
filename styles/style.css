@@ -55,9 +55,6 @@ button {
     text-decoration: none;
 }
 
-.headshot-div {
-    position: relative;
-}
 
 #about-tab button {
     color: #9e86c8;
@@ -73,16 +70,38 @@ button {
     color: white;
 }
 
-#intro-container {text-align: center;}
-
-#headshot {border: 6px rgb(158, 134, 200) solid; position: relative; width: 80%}
-
-#cert{
-    width: 30%;
-    height: auto;
-    position: relative;
-    top: -10%;
-    right: 38%;
+#intro-container {
+    text-align: center;
 }
 
+#headshot-div {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#headshot {
+    border: 6px rgb(158, 134, 200) solid;
+    width: 100%;
+    display: block;
+}
+
+.certification {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.certification:nth-of-type(2) {
+    top: 10px;
+    right: 10px;
+}
+
+.certification:nth-of-type(3) {
+    bottom: 8px;
+    left: 10px;
+    padding: 5%;
+    border-radius: 50px;
+}
 #myNav {border-bottom: 2px #b4d273 solid;}

@@ -5,14 +5,14 @@
         "subheading": "Conceptual skills",
         "skills": [
             "Information Security",
-            "Network Security",  
-            "Vulnerability Management", 
-            "Network Architecture", 
+            "Network Security",
+            "Vulnerability Management",
+            "Network Architecture",
             "GNU/Linux Administration",
             "Network Technologies",
             "Server Architecture",
-            "Telecommunications", 
-            "Network Infrastructure", 
+            "Telecommunications",
+            "Network Infrastructure",
             "Packet Analysis"
         ],
         "color": "orange"
